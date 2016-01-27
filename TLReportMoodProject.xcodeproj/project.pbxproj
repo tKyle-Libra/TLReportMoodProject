@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2750FD331C5860B900F4BFB4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2750FD321C5860B900F4BFB4 /* main.m */; };
+		2750FD361C5860B900F4BFB4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2750FD351C5860B900F4BFB4 /* AppDelegate.m */; };
+		2750FD391C5860B900F4BFB4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2750FD381C5860B900F4BFB4 /* ViewController.m */; };
+		2750FD3C1C5860B900F4BFB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2750FD3A1C5860B900F4BFB4 /* Main.storyboard */; };
+		2750FD3E1C5860B900F4BFB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2750FD3D1C5860B900F4BFB4 /* Assets.xcassets */; };
+		2750FD411C5860B900F4BFB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2750FD3F1C5860B900F4BFB4 /* LaunchScreen.storyboard */; };
+		2750FD4A1C58739500F4BFB4 /* TLImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2750FD491C58739500F4BFB4 /* TLImagePicker.m */; };
+		2750FD4D1C5875F600F4BFB4 /* TLImagePickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2750FD4C1C5875F600F4BFB4 /* TLImagePickerCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2750FD2E1C5860B900F4BFB4 /* TLReportMoodProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TLReportMoodProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2750FD321C5860B900F4BFB4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2750FD341C5860B900F4BFB4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2750FD351C5860B900F4BFB4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2750FD371C5860B900F4BFB4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2750FD381C5860B900F4BFB4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2750FD3B1C5860B900F4BFB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2750FD3D1C5860B900F4BFB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2750FD401C5860B900F4BFB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2750FD421C5860B900F4BFB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2750FD481C58739500F4BFB4 /* TLImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLImagePicker.h; sourceTree = "<group>"; };
+		2750FD491C58739500F4BFB4 /* TLImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLImagePicker.m; sourceTree = "<group>"; };
+		2750FD4B1C5875F600F4BFB4 /* TLImagePickerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLImagePickerCell.h; sourceTree = "<group>"; };
+		2750FD4C1C5875F600F4BFB4 /* TLImagePickerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLImagePickerCell.m; sourceTree = "<group>"; };
+		2750FD4E1C588CAD00F4BFB4 /* AppMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppMacro.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2750FD2B1C5860B900F4BFB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2750FD251C5860B900F4BFB4 = {
+			isa = PBXGroup;
+			children = (
+				2750FD301C5860B900F4BFB4 /* TLReportMoodProject */,
+				2750FD2F1C5860B900F4BFB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2750FD2F1C5860B900F4BFB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2750FD2E1C5860B900F4BFB4 /* TLReportMoodProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2750FD301C5860B900F4BFB4 /* TLReportMoodProject */ = {
+			isa = PBXGroup;
+			children = (
+				2750FD341C5860B900F4BFB4 /* AppDelegate.h */,
+				2750FD351C5860B900F4BFB4 /* AppDelegate.m */,
+				2750FD371C5860B900F4BFB4 /* ViewController.h */,
+				2750FD381C5860B900F4BFB4 /* ViewController.m */,
+				2750FD481C58739500F4BFB4 /* TLImagePicker.h */,
+				2750FD491C58739500F4BFB4 /* TLImagePicker.m */,
+				2750FD4B1C5875F600F4BFB4 /* TLImagePickerCell.h */,
+				2750FD4C1C5875F600F4BFB4 /* TLImagePickerCell.m */,
+				2750FD3A1C5860B900F4BFB4 /* Main.storyboard */,
+				2750FD3D1C5860B900F4BFB4 /* Assets.xcassets */,
+				2750FD3F1C5860B900F4BFB4 /* LaunchScreen.storyboard */,
+				2750FD421C5860B900F4BFB4 /* Info.plist */,
+				2750FD311C5860B900F4BFB4 /* Supporting Files */,
+				2750FD4E1C588CAD00F4BFB4 /* AppMacro.h */,
+			);
+			path = TLReportMoodProject;
+			sourceTree = "<group>";
+		};
+		2750FD311C5860B900F4BFB4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2750FD321C5860B900F4BFB4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2750FD2D1C5860B900F4BFB4 /* TLReportMoodProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2750FD451C5860B900F4BFB4 /* Build configuration list for PBXNativeTarget "TLReportMoodProject" */;
+			buildPhases = (
+				2750FD2A1C5860B900F4BFB4 /* Sources */,
+				2750FD2B1C5860B900F4BFB4 /* Frameworks */,
+				2750FD2C1C5860B900F4BFB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TLReportMoodProject;
+			productName = TLReportMoodProject;
+			productReference = 2750FD2E1C5860B900F4BFB4 /* TLReportMoodProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2750FD261C5860B900F4BFB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "同乐";
+				TargetAttributes = {
+					2750FD2D1C5860B900F4BFB4 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 7ZK5KSBJ63;
+					};
+				};
+			};
+			buildConfigurationList = 2750FD291C5860B900F4BFB4 /* Build configuration list for PBXProject "TLReportMoodProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2750FD251C5860B900F4BFB4;
+			productRefGroup = 2750FD2F1C5860B900F4BFB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2750FD2D1C5860B900F4BFB4 /* TLReportMoodProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2750FD2C1C5860B900F4BFB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2750FD411C5860B900F4BFB4 /* LaunchScreen.storyboard in Resources */,
+				2750FD3E1C5860B900F4BFB4 /* Assets.xcassets in Resources */,
+				2750FD3C1C5860B900F4BFB4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2750FD2A1C5860B900F4BFB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2750FD391C5860B900F4BFB4 /* ViewController.m in Sources */,
+				2750FD361C5860B900F4BFB4 /* AppDelegate.m in Sources */,
+				2750FD331C5860B900F4BFB4 /* main.m in Sources */,
+				2750FD4A1C58739500F4BFB4 /* TLImagePicker.m in Sources */,
+				2750FD4D1C5875F600F4BFB4 /* TLImagePickerCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2750FD3A1C5860B900F4BFB4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2750FD3B1C5860B900F4BFB4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2750FD3F1C5860B900F4BFB4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2750FD401C5860B900F4BFB4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2750FD431C5860B900F4BFB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2750FD441C5860B900F4BFB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2750FD461C5860B900F4BFB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TLReportMoodProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.tkyle.TLReportMoodProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2750FD471C5860B900F4BFB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TLReportMoodProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.tkyle.TLReportMoodProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2750FD291C5860B900F4BFB4 /* Build configuration list for PBXProject "TLReportMoodProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2750FD431C5860B900F4BFB4 /* Debug */,
+				2750FD441C5860B900F4BFB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2750FD451C5860B900F4BFB4 /* Build configuration list for PBXNativeTarget "TLReportMoodProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2750FD461C5860B900F4BFB4 /* Debug */,
+				2750FD471C5860B900F4BFB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2750FD261C5860B900F4BFB4 /* Project object */;
+}
